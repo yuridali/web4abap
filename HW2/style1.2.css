@@ -1,0 +1,19 @@
+table {
+    width:100%;
+}
+tr#line1{
+    height:40px;
+    background-color: orange;    
+}
+tr#line2{
+    height:120px;
+    background-color: yellowgreen;    
+}
+tr#line3{
+    height:80px;
+    background-color: blue;    
+}
+tr#line4{
+    height:60px;
+    background-color: grey;    
+}
