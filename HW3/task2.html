@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW #3 Task 2</title>
+</head>
+
+<body id="zzz">
+    <p>Page with 2 buttons</p>
+    <input type="button" value="Google" onclick="redirect('http://google.by')">
+    <input type="button" value="Clear All" onclick="clearAll('zzz')">
+    <script>
+        function redirect(linkname) {
+            window.location.href = linkname;
+        }
+
+        function clearAll(idname) {
+            document.getElementById(idname).innerHTML = "";
+        }
+    </script>
+</body>
+
+</html>
